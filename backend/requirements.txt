@@ -1,0 +1,15 @@
+Flask==3.0.3
+Flask-Cors==4.0.1
+google-auth==2.29.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+google-api-python-client==2.129.0
+pandas
+numpy
+SQLAlchemy>=2.0.32
+Flask-SQLAlchemy
+python-dotenv==1.0.1
+requests==2.31.0
+google-generativeai==0.5.4
+pytest==8.2.1
+gunicorn==22.0.0
