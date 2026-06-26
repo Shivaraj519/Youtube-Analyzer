@@ -3,8 +3,8 @@ node_modules/
 frontend/node_modules/
 
 # Production build output
-dist/
-frontend/dist/
+# (We allow committing these so Render can serve them without a node environment)
+
 
 # Python caches
 __pycache__/
