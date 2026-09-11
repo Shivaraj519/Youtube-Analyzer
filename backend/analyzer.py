@@ -168,7 +168,7 @@ def analyze_activity_data(items, data_source='api'):
     
     # Compute scores
     learning_cats = ['Programming & Technology', 'Science & Engineering', 'Education', 'Finance & Business', 'Self-Improvement']
-    entertainment_cats = ['Gaming', 'Movies & Entertainment', 'Music', 'Sports', 'Vlogs & Lifestyle']
+    entertainment_cats = ['Gaming', 'Movies & Entertainment', 'Sports', 'Vlogs & Lifestyle']
     
     learning_score = sum(sorted_dist.get(c, 0) for c in learning_cats)
     entertainment_score = sum(sorted_dist.get(c, 0) for c in entertainment_cats)
